@@ -4,8 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-This project analyzes food security trends in Rwanda using FAOSTAT data to identify key factors influencing undernourishment and predict future food security status.
-
+This project on how we can analyze packaged food products to assess their nutritional value and identify unhealthy trends in consumer diets?
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
