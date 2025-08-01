@@ -11,11 +11,7 @@ This project analyzes food security trends in Rwanda using FAOSTAT data to ident
 - [Data Sources](#data-sources)
 - [Methodology](#methodology)
 - [Key Findings](#key-findings)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -47,23 +43,49 @@ Key indicators analyzed:
    - Converted values to numeric types
    - Filtered relevant indicators
 
+![](./data%20loading.PNG)
+
+![](./cleaning.PNG)
+
+
 2. **Exploratory Data Analysis**
    - Time series trends visualization
    - Correlation matrix of key indicators
    - Scatter plots of relationships
+
+![](./eda0.PNG)
+
+![](./eda1.PNG)
+
+![](./relatonship.PNG)
+
+![](./relation1.PNG)
 
 3. **Machine Learning**
    - Random Forest regression to predict undernourishment
    - Feature importance analysis
    - Model evaluation (R² = 0.61)
 
+     ![](./ML.PNG)
+
+     ![](./ML1.PNG)
+
+
 4. **Time Series Forecasting**
    - ARIMA model for undernourishment prevalence
    - 5-year forecast of food security trends
+  
+      ![](./TS.PNG)
+
+     ![](./TS1.PNG)
 
 5. **Composite Index Creation**
    - Combined multiple indicators into single Food Security Index
    - Normalized and weighted components
+  
+      ![](./INOVATION.PNG)
+
+     ![](./INOVATION1.PNG)
 
 ## Key Findings
 
@@ -74,9 +96,4 @@ Key indicators analyzed:
 - Model predicts undernourishment may reach ~20% by 2028
 - Food Security Index improved from 0.38 (2001) to 0.62 (2023)
 
-## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/rwanda-food-security.git
-cd rwanda-food-security
